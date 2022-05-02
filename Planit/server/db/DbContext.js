@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import { AccountSchema, ProfileSchema } from '../models/Account'
 import { ValueSchema } from '../models/Value'
 import {ProjectSchema} from '../models/Project'
-import {SprintSchema} from '../models/Project.js'
+import {SprintSchema} from '../models/Sprint.js'
 
 class DbContext {
   Values = mongoose.model('Value', ValueSchema);
